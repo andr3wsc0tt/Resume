@@ -35,5 +35,25 @@ nav a:hover{
 
 .resume section, .about section{
     text-align: center;
-    margin: auto 0;
+}
+
+.resume main{
+    float: left;
+    width: 50%;
+}
+
+.resume aside{
+    float: left;
+    width: 50%;
+}
+.resume aside img{
+    width: 75%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.resume:after main{
+    content: "";
+    display: table;
+    clear: both;
 }
