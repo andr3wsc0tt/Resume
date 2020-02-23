@@ -1,0 +1,39 @@
+html{
+    font-family: "Consolas";
+}
+#skip-to {
+    font-size: 10px;
+}
+
+#skip-to:hover{
+    font-size: larger;
+}
+
+a:hover{
+    font-size: larger;
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background: #2D27E8;
+    color: white;
+    font-size: 30px;
+}
+
+nav{
+    padding: 20px;
+    text-align: center;
+    background: #2BCCFF;
+    color: white;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.resume section, .about section{
+    text-align: center;
+    margin: auto 0;
+}
