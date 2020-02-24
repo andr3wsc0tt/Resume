@@ -1,6 +1,5 @@
 html{
     font-family: 'Black Ops One';
-    height: 1000px;
 }
 #skip-to {
     font-size: 10px;
@@ -146,7 +145,7 @@ p{
     list-style-type: disc;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 0.5em;
+    margin-left: 5%;
     margin-right: 0;
     padding-left: 40px;
 }
@@ -156,7 +155,8 @@ p{
 }
 .homepage{
     background-image: url("../resources/Background.jpg");
-    background-size: cover;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
