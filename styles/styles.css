@@ -1,8 +1,10 @@
 html{
-    font-family: "Consolas";
+    font-family: 'Black Ops One';
+    height: 1000px;
 }
 #skip-to {
     font-size: 10px;
+    color: white;
 }
 
 #skip-to:hover{
@@ -33,12 +35,16 @@ nav a:hover{
     color: white;
 }
 
-.resume section, .about section{
+.about section{
     text-align: center;
 }
 
-.resume main{
+.resume-col-1{
     float: left;
+    width: 50%;
+}
+.resume-col-2{
+    float:right;
     width: 50%;
 }
 
@@ -56,4 +62,104 @@ nav a:hover{
     content: "";
     display: table;
     clear: both;
+}
+
+.resume h2{
+    float: left;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold; 
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+fieldset{
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    font-weight: bold;
+}
+
+p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.resume h2{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5%;
+    margin-right: 0;
+}
+
+.resume-profile p{
+    margin-left: 5%;
+}
+.resume-experience h3, .resume-skills h3, .resume-education h3{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: 5%;
+    margin-right: 0;
+}
+
+.resume-experience h4{
+    font-size: 15px;
+    float: left;
+    display: block;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+.resume-experience ul
+{
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.resume-experience p, .resume-skills p, .resume-education p{
+    margin-left: 5%;
+}
+.homepage{
+    background-image: url("../resources/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homepage header a{
+    font-size: 55px;
 }

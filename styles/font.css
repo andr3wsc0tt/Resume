@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Black Ops One';
+    src: url('../fonts/transfonter.org-20200224-213502/BlackOpsOne-Regular.woff2') format('woff2'),
+        url('../fonts/transfonter.org-20200224-213502/BlackOpsOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
