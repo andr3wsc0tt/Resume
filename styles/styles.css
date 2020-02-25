@@ -1,6 +1,7 @@
 html{
     font-family: 'Black Ops One';
 }
+
 #skip-to {
     font-size: 10px;
     color: white;
@@ -129,7 +130,7 @@ p{
     float: left;
     display: block;
     width: 100%;
-    margin-top: 0.5em;
+    margin-top: 1%;
     margin-left: 5%;
     margin-right: 0;
 }
@@ -139,8 +140,9 @@ p{
     float: left;
     display: block;
     width: 100%;
+    margin-top: 2%;
     margin-left: 5%;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
     margin-right: 0;
 }
 
@@ -171,4 +173,8 @@ p{
 
 .fas.fa-briefcase{
     font-size: 25px;
+}
+
+.resume main{
+ font-family: 'Fira Sans';
 }
