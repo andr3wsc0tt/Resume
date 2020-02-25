@@ -4,6 +4,11 @@ html{
 #skip-to {
     font-size: 10px;
     color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 1%;
+    padding-top: 1%;
 }
 
 #skip-to:hover{
@@ -57,7 +62,7 @@ nav a:hover{
     padding-top: 50px;
 }
 
-.resume:after main{
+.resume main:after{
     content: "";
     display: table;
     clear: both;
@@ -162,4 +167,8 @@ p{
 
 .homepage header a{
     font-size: 55px;
+}
+
+.fas.fa-briefcase{
+    font-size: 25px;
 }
