@@ -1,25 +1,54 @@
 html{
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 body{
     background-image: url("../resources/mobile-wallpaper.svg");
     background-size: cover;
     background-repeat: no-repeat-y;
+    width: 100%;
 }
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     padding: 5%;
+    height: 100%;
 }
+
+
+.Joystick{
+    object-fit: contain;
+    width: 100%;
+    opacity: 0.85;
+}
+
 .item-1{border: solid white;padding: 5%;}
 .item-2{border: solid white;padding: 5%;}
 .item-3{border: solid white;padding: 5%;}
 .item-4{border: solid white;padding: 5%;}
 .item-5{border: solid white;padding: 5%;}
 .item-6{border: solid white;padding: 5%;}
+.item-7{ grid-row: 4; grid-column: 1/4;}
+
+.flexbox{
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 3; 
+    height: 50vw;
+}
+
+.flexitem-1{
+    
+    width: 78vw;
+    text-align: center;
+    margin-left: 3.7vw;
+    margin-right: 3.9vw;
+    border-left: 2.5vw solid red;
+    border-right: 2.0vw solid red;
+    background-color: black;
+}
 
 .welcome-header{
     background-color: transparent;
@@ -30,14 +59,11 @@ body{
 
 .welcome-header h1{
     font-family: "Press Start 2P";
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
     text-align: center;
 }
 
-.Joystick{
-    width: 50%;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
