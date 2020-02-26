@@ -1,12 +1,43 @@
 html{
-    background-image: url("../resources/mobile-wallpaper.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("../resources/mobile-wallpaper.svg");
     background-size: cover;
+    background-repeat: no-repeat-y;
 }
 
 .container{
     display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 5%;
+}
+.item-1{border: solid white;padding: 5%;}
+.item-2{border: solid white;padding: 5%;}
+.item-3{border: solid white;padding: 5%;}
+.item-4{border: solid white;padding: 5%;}
+.item-5{border: solid white;padding: 5%;}
+.item-6{border: solid white;padding: 5%;}
+
+.welcome-header{
+    background-color: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
 
+.welcome-header h1{
+    font-family: "Press Start 2P";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.Joystick{
+    width: 50%;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
@@ -30,17 +61,3 @@ bluish: rgb(12, 75, 89)
 light bluish: rgb(20, 197, 217)
 greenish: rgb(56, 115, 54)
 */
-
-header{
-    background-image: linear-gradient(to top, #081e26, #0f3945, #135667, #157689, #1597ab, #01a0ae, #00a9b0, #00b2b0, #04a391, #1d9372, #2d8353, #387336);
-    opacity: 0.7;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-h1{
-    font-family: 'Press Start 2P';
-    font-size: 300%;
-    color: white;
-}
