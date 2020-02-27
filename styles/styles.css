@@ -8,23 +8,67 @@
         -o-background-size: cover;
         background-size: cover;
     }
-    /* #FFE53C - Yellow Header */
+
+    header{
+        animation: 0.75s ease-out 0s 1 slideIn;
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
 
     .nav-flex{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        height: 15vw;
         align-items: center;
-        height: 20vw; /*once you have more content try and make it more consistent across browsers aka. no vw*/
-        background-color: #FFE53C;
-        box-shadow: 2px 2px rgb(124, 137, 177);
+        background-color: rgb(231, 224, 224);
+        box-shadow: 2px 2px grey;
     }
 
     .nav-links{
-       padding: 3vw;
-       background-color: #8166FF;
-       color: white;
-       border-radius: 40%;
-       border: inset;
+       font-family: 'Sonsie One' ;
+       font-size: 4vw;
+       color: black;
+       padding-top: 4vw;
+       padding-bottom: 4vw;
+       text-decoration: none;
+    }
+
+    .main-grid
+    {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+    }
+    .grid-1{
+        animation: 5s ease 0s 1 showYourself;
+
+        font-size: 12vw;
+        color: rgb(54, 24, 189);
+        font-family: 'Sonsie One';
+        text-shadow: 2px 2px black;
+    }
+
+    @keyframes showYourself
+    {
+        0%{
+            transform: translateY(1000%);
+            opacity: 0;
+            color: black;
+            transition-property: opacity;
+        }
+        100%{
+            transform: translateY(0%);
+            color: rgb(54, 24, 189);
+            opacity: 1;
+        }
     }
 }
 
