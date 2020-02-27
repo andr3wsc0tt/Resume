@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
-    html{
+    .home{
         background: url(../resources/small-mobile.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -9,8 +9,17 @@
         background-size: cover;
     }
 
-    header{
+    .home-header{
         animation: 0.75s ease-out 0s 1 slideIn;
+    }
+
+    .resume-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+        background-color: grey;
+        margin-bottom: 2vh;
     }
 
     @keyframes slideIn {
@@ -40,20 +49,30 @@
        text-decoration: none;
     }
 
-    .main-grid
+    .main-grid-home
     {
         display: grid;
         justify-content: center;
         align-items: center;
         height: 25vh;
     }
-    .grid-1{
+    .main-grid-home .grid-1{
         animation: 5s ease 0s 1 showYourself;
 
         font-size: 12vw;
         color: rgb(54, 24, 189);
         font-family: 'Sonsie One';
         text-shadow: 2px 2px black;
+    }
+
+    .resume-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .resume-col-1, .resume-col-2{
+        display: grid;
     }
 
     @keyframes showYourself
@@ -69,6 +88,15 @@
             color: rgb(54, 24, 189);
             opacity: 1;
         }
+    }
+    ul{
+        display: block;
+        list-style-type: disc;
+        margin-top: 1em;
+        margin-bottom: 1 em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
     }
 }
 
