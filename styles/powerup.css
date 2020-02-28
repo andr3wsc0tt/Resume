@@ -1,30 +1,28 @@
+#skill-1{
+    animation: 1s ease-out 2s 1 forwards powerup-1;
+    width: 0%;
+}
+
 @keyframes powerup-1{
     0%{
         width: 0%;
     }
+    50%{
+        width: 35%;
+    }
     100%{
         width: 75%;
+        background-color: green;
     }
 }
 
-
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
+#skill-1:after{
     width: 75%;
 }
-@keyframes powerup-1{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 75%;
-    }
-}
-
 
 #skill-2{
-    animation: 0.75s ease-out 0s 1 powerup-2;
-    width: 90%;
+    animation: 0.75s ease-out 2s 1 forwards powerup-2;
+    width: 0%;
 }
 @keyframes powerup-2{
     0%{
@@ -32,109 +30,133 @@
     }
     100%{
         width: 90%;
+        background-color: green;
     }
 }
 
 
 #skill-3{
-    animation: 0.75s ease-out 0s 1 powerup-3;
-    width: 99%;
+    animation: 2s ease-in 2s 1 forwards powerup-3;
+    width: 0%;
 }
 @keyframes powerup-3{
     0%{
         width: 0%;
     }
+    50%{
+        width: 50%;
+        background-color: green;
+    }
     100%{
         width: 99%;
+        background-color: red;
     }
 }
 
 
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-4;
-    width: 100%;
+#skill-4{
+    animation: 2s ease-in 2.2s 1 forwards powerup-4;
+    width: 0%;
 }
 @keyframes powerup-4{
     0%{
         width: 0%;
     }
+    50%{
+        width: 50%;
+        background-color: green;
+    }
     100%{
         width: 100%;
+        background-color: red;
     }
 }
 
 
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
+#skill-5{
+    animation: 0.75s ease-out 2s 1 forwards powerup-5;
+    width: 0%;
 }
-@keyframes powerup-1{
+@keyframes powerup-5{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 40%;
+    }
+    100%{
+        width: 80%;
+        background-color: green;
+    }
+}
+
+
+#skill-6{
+    animation: 0.75s ease-out 2s 1 forwards powerup-6;
+    width: 0%;
+}
+@keyframes powerup-6{
     0%{
         width: 0%;
     }
     100%{
-        width: 75%;
+        width: 85%;
+        background-color: green;
     }
 }
 
 
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
+#skill-7{
+    animation: 0.75s ease-out 2s 1 forwards powerup-7;
+    width: 0%;
 }
-@keyframes powerup-1{
+@keyframes powerup-7{
     0%{
         width: 0%;
     }
+    50%{
+        width: 50%;
+        background-color: green;
+    }
     100%{
-        width: 75%;
+        width: 100%;
+        background-color: red;
     }
 }
 
 
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
+#skill-8{
+    animation: 1.5s ease-out 2s 1 forwards powerup-8;
+    width: 0%;
 }
-@keyframes powerup-1{
+@keyframes powerup-8{
     0%{
         width: 0%;
     }
+    50%{
+        width: 50%;
+    }
     100%{
-        width: 75%;
+        width: 80%;
+        background-color: green;
     }
 }
 
 
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
+#skill-9{
+    animation: 1.3s ease-out 2s 1 forwards powerup-9;
+    width: 0%;
 }
-@keyframes powerup-1{
+@keyframes powerup-9{
     0%{
         width: 0%;
     }
-    100%{
-        width: 75%;
-    }
-}
-
-
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
-}
-@keyframes powerup-1{
-    0%{
-        width: 0%;
+    50%{
+        width: 50%;
+        background-color: green;
     }
     100%{
-        width: 75%;
+        width: 100%;
+        background-color: red;
     }
-}
-
-
-#skill-1{
-    animation: 0.75s ease-out 0s 1 powerup-1;
-    width: 75%;
 }
