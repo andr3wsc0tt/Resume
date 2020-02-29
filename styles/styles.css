@@ -448,20 +448,22 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-row: 5vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
     }
 
     .resume-grid ul li{
-        font-size: 2vw;
+        font-size: 1vw;
         font-family: 'Kanit';
     }
 
     .resume-grid section{
-        margin-bottom: 3vw;
+        margin-bottom: 2vw;
     }
 
     .resume h2{
         margin-bottom: 2vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     .resume h2, h3{
@@ -470,7 +472,7 @@
 
     .resume h3{
         margin-bottom: 0.25vh;
-        font-size: 2vw;
+        font-size: 1.25vw;
     }
 
     .resume h4{
@@ -482,17 +484,18 @@
     }
 
     .resume-col-2 .p-content{
-        margin-bottom: 4vw;
+        margin-bottom: 2vw;
     }
     .p-content{
-        font-size: 2vw;
+        font-size: 1.25vw;
         font-family: 'Kanit';
+        margin-bottom: 0;
     }
 
     .p-header{
-        font-size: 2vw;
+        font-size: 1.25vw;
         font-family: 'Kanit';
-        margin-bottom: 0.5vh;
+        margin-bottom: 0.25vh;
     }
 
     ul{
@@ -503,19 +506,19 @@
         margin-left: 0;
         margin-right: 0;
         padding-left: 40px;
-        font-size: 4vh;  
+        font-size: 2vh;  
     }
 
     li{
-        font-size: 4vh;        
+        font-size: 2vh;        
     }
 
     
     [class^="fas "]{
-        font-size: 5vw;
+        font-size: 3vw;
     }
     .hobbies [class^="fas "]{
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     .w3-border{
