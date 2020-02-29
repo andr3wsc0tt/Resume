@@ -355,7 +355,179 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .home{
+        background: url(../resources/ipad-wallpaper.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .home-header{
+        animation: 0.75s ease-out 0s 1 slideIn;
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .main-grid-home
+    {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-grid-home .grid-1{
+        animation: 5s ease 0s 1 showYourself;
+
+        font-size: 6vw;
+        color: rgb(54, 24, 189);
+        font-family: 'Sonsie One';
+        text-shadow: 2px 2px black;
+    }
+
+    .nav-links{
+        font-family: 'Sonsie One' ;
+        font-size: 2vw;
+        color: black;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        text-decoration: none;
+     }
+
+    .resume-name{
+        display: flex;
+        align-items: center;
+        font-family: 'Permanent Marker';
+        justify-content: center;
+        height: 20vh;
+        background-color: rgb(112, 150, 165);
+        margin-bottom: 2vh;
+        font-size: 5vw;
+    }
+
+    .resume-name h1{
+        border: double black;
+        color: white;
+        padding: 3vh;
+    }
+
+
+    .nav-flex{
+        display: flex;
+        justify-content: space-around;
+        height: 5vw;
+        align-items: center;
+        background-color: rgb(231, 224, 224);
+        box-shadow: 2px 2px grey;
+    }    
+
+    @keyframes showYourself
+    {
+        0%{
+            transform: translateY(1000%);
+            opacity: 0;
+            color: black;
+            transition-property: opacity;
+        }
+        100%{
+            transform: translateY(0%);
+            color: rgb(54, 24, 189);
+            opacity: 1;
+        }
+    }
+
+    
+    .resume-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-row: 5vw;
+    }
+
+    .resume-grid ul li{
+        font-size: 2vw;
+        font-family: 'Kanit';
+    }
+
+    .resume-grid section{
+        margin-bottom: 3vw;
+    }
+
+    .resume h2{
+        margin-bottom: 2vw;
+        font-size: 2vw;
+    }
+
+    .resume h2, h3{
+        font-weight: bold;
+    }
+
+    .resume h3{
+        margin-bottom: 0.25vh;
+        font-size: 2vw;
+    }
+
+    .resume h4{
+        margin-bottom: 0.25vh;
+    }
+    .resume-col-1, .resume-col-2{
+        /* display: grid; */
+        margin: 2vw;
+    }
+
+    .resume-col-2 .p-content{
+        margin-bottom: 4vw;
+    }
+    .p-content{
+        font-size: 2vw;
+        font-family: 'Kanit';
+    }
+
+    .p-header{
+        font-size: 2vw;
+        font-family: 'Kanit';
+        margin-bottom: 0.5vh;
+    }
+
+    ul{
+        display: block;
+        list-style-type: disc;
+        margin-top: 0.5vh;
+        margin-bottom: 1 em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+        font-size: 4vh;  
+    }
+
+    li{
+        font-size: 4vh;        
+    }
+
+    
+    [class^="fas "]{
+        font-size: 5vw;
+    }
+    .hobbies [class^="fas "]{
+        font-size: 5vw;
+    }
+
+    .w3-border{
+        display: inline-block;
+        width: 15vw;
+    }
+
+    .w3-black{
+        height:1vh;
+        width: 50%;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
