@@ -159,7 +159,10 @@
         font-size: 7vw;
     }
     .hobbies [class^="fas "]{
-        font-size: 12vw;
+        font-size: 6vw;
+    }
+    .fas.fa-fighter-jet{
+        font-size: 8vw;
     }
 
     .w3-border{
@@ -337,7 +340,11 @@
         font-size: 7vw;
     }
     .hobbies [class^="fas "]{
-        font-size: 12vw;
+        font-size: 6vw;
+    }
+
+    .fas.fa-fighter-jet{
+        font-size: 8vw;
     }
 
     .w3-border{
@@ -519,6 +526,10 @@
     }
     .hobbies [class^="fas "]{
         font-size: 3vw;
+    }
+
+    .fas.fa-fighter-jet{
+        font-size:4vw;
     }
 
     .w3-border{
